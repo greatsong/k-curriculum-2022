@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 질문·아이디어·토론
+    url: https://github.com/greatsong/k-curriculum-2022/discussions
+    about: 오류 신고가 아닌 질문·활용 사례·제안은 Discussions에서 나눠주세요.
+  - name: 📖 기여 방법
+    url: https://github.com/greatsong/k-curriculum-2022/blob/main/CONTRIBUTING.md
+    about: PR로 직접 고치는 방법을 안내합니다.
