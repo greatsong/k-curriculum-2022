@@ -51,4 +51,4 @@ node scripts/validate.mjs
 
 ## 라이선스
 
-데이터 [CC BY 4.0](../LICENSE-DATA) — 성취기준 원문 출처: 대한민국 교육부(2022 개정 교육과정 고시). 코드 [MIT](../LICENSE).
+데이터 [CC BY 4.0](../LICENSE-DATA) — 성취기준 원문 출처: 교육부 고시 제2022-33호 「초·중등학교 교육과정」 및 교과별 각론 별책. 코드 [MIT](../LICENSE).

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "이 데이터셋을 사용하실 때 아래와 같이 인용해 주세요. 성취기준 원문의 출처는 대한민국 교육부입니다. / Please cite as below. The source text is by the Ministry of Education, Republic of Korea."
+message: "이 데이터셋을 사용하실 때 아래와 같이 인용해 주세요. 성취기준 원문은 교육부 고시 제2022-33호 「초·중등학교 교육과정」입니다. / Please cite as below. The source text is Ministry of Education Notice No. 2022-33 (Elementary and Secondary School Curriculum)."
 title: "k-curriculum-2022: 2022 개정 교육과정 성취기준 데이터셋 (Korea 2022 Revised National Curriculum — Achievement Standards)"
 abstract: >-
   대한민국 교육부 고시 2022 개정 교육과정의 성취기준 6,444건을 교육부 별책 PDF 원문 그대로

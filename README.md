@@ -138,7 +138,7 @@ df[df.subject == "수학"].groupby("grade_group").size()
 
 ## 라이선스 · License
 
-- **데이터** (`data/`): [CC BY 4.0](./LICENSE-DATA). 재이용 시 이 저장소와 함께 **교육부(2022 개정 교육과정 고시)**를 출처로 표기해 주세요.
+- **데이터** (`data/`): [CC BY 4.0](./LICENSE-DATA). 재이용 시 이 저장소와 함께 원문 출처를 표기해 주세요 — 교육부 고시 제2022-33호 「초·중등학교 교육과정」(2022. 12. 22.) 및 교과별 각론 별책.
 - **코드** (`scripts/`): [MIT](./LICENSE)
 
 ## 인용 · Citation

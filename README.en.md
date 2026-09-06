@@ -120,7 +120,7 @@ Finding a place where the data differs from the source is the most valuable cont
 
 ## License and citation
 
-- **Data** (`data/`): [CC BY 4.0](./LICENSE-DATA). Please credit both this repository and the **Ministry of Education, Republic of Korea (2022 Revised National Curriculum notice)**.
+- **Data** (`data/`): [CC BY 4.0](./LICENSE-DATA). Please credit both this repository and the source — Ministry of Education Notice No. 2022-33, "Elementary and Secondary School Curriculum" (22 Dec 2022), and its subject appendices.
 - **Code** (`scripts/`): [MIT](./LICENSE)
 - Cite via [CITATION.cff](./CITATION.cff) (GitHub's "Cite this repository" button gives BibTeX/APA).
 
