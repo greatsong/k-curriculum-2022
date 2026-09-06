@@ -1,32 +1,25 @@
-# 변경 이력
+# 변경 이력 · Changelog
 
-데이터 릴리스는 날짜로 구분합니다. 스키마가 바뀌면 `data/manifest.json`의 `schema_version`이 올라갑니다.
+릴리스는 `vX.Y.Z`로 태그하고 GitHub Release에 `standards.json`·`standards.csv`를 첨부합니다. 스키마가 바뀌면 `data/manifest.json`의 `schema_version`이 올라갑니다. / Releases are tagged `vX.Y.Z` with `standards.json` and `standards.csv` attached; `schema_version` in `data/manifest.json` increments on schema changes.
 
-## 2026-09-06 (2차) — 제2외국어·초등 통합교과 연결 추가 (v2.1.0)
+## v3.0.0 — 2026-09-06 · 성취기준 전용 리포로 / Standards-only repository
 
-- 연결 published 3,874 → **3,916** / candidate 11,088 → **11,758**. 스키마는 v2 그대로.
-- **제2외국어 27과목 + 스포츠 문화**([#1](../../issues/1)): 상대 과목을 지리·역사·국제 관계·사회와 문화·문학·영어 문화·진로로 한정한 과목쌍별 상위 3쌍 후보 추출과 언어 교과 판정 지침으로 1,344쌍 판정 → 34건 게시. 16과목이 0 → 1건 이상. 회화 6과목·독일어 3과목·생활 프랑스어·생활 러시아어·러시아어·스포츠 문화 12과목은 0.7대 후보만 남아 미해결.
-- **초등 1~2학년군 통합교과**: 바른·슬기로운·즐거운 생활 × 초등 10과목(초등 한정) 120쌍 판정 → 8건 게시. 1-2학년군 커버리지 24 → 29/100.
-- 연결이 있는 성취기준 2,535(39%) → 2,570(40%).
-- 원천 파이프라인 수정([curriculum-weaver#123](https://github.com/greatsong/curriculum-weaver/pull/123)): 상대 과목·학교급 한정 옵션, 판정 지침 파일, 복합 key의 `|`가 쌍 구분자와 충돌해 충돌 11건의 쌍이 깨지던 버그.
+- **교과 간 융합 연결을 [k-curriculum-2022-links](https://github.com/greatsong/k-curriculum-2022-links)로 분리했습니다.** 성취기준은 교육부 원문 verbatim이라 느리게 바뀌는 공공재이고, 연결은 AI가 만들어 모델·정책에 따라 자주 바뀝니다. 둘을 한 리포에 두면 성취기준의 신뢰도가 연결의 불확실성에 묻혀 나눴습니다. 연결 리포는 이 리포의 릴리스 태그에 고정됩니다. / Cross-subject links moved to a separate repository pinned to a release tag of this one.
+- 스키마 v3: 행 단위 출처 **`source_book`·`source_doc`** 추가(어느 별책에서 왔는지). `domain`은 v2에서 이미 제거. / Schema v3 adds per-row provenance.
+- 배포 형식 추가: `data/standards.csv`(스프레드시트용, BOM), `datapackage.json`(Frictionless), `dataset.jsonld`(schema.org), `llms.txt`(AI 에이전트 진입점). / Added CSV, Frictionless Data Package, schema.org JSON-LD, and llms.txt.
+- 문서를 한·영으로: README, SCHEMA, CONTRIBUTING. 행동 강령 추가. / Bilingual docs; code of conduct.
+- 건수 6,444 (변동 없음). / 6,444 standards, unchanged.
 
-## 2026-09-06 — 스키마 v2
+## v2026.09.06 — 스키마 v2 (성취기준 + 연결 통합 시절)
 
-- 성취기준 5,907 → **6,444**. 교육부 고시 별책 PDF를 파서 19종으로 다시 추출하고 전 필드 결점 게이트(완결성·문장 verbatim·학교급·교과 귀속·영역·해설·고려사항·형식)를 통과한 정본으로 교체. 별책23(경영·금융 전문교과) 미수록 12과목 438건, 과학·예술계열 23건 등 추가.
-- **고유 식별자 `key` 도입.** 같은 code가 두 과목에 쓰인 11건([12심독01-01~02-04], [12스문01-01~03])을 구분. 링크 끝점도 key 값. 자세한 규약은 [docs/SCHEMA.md](./docs/SCHEMA.md).
-- 한 번도 채워진 적 없던 `domain` 필드 제거.
-- 연결 published 3,927 → **3,874** / candidate 10,351 → **11,088**.
-  - 신규 성취기준 후보 1,413건 판정, 0.8 이상 208건 승격, 0.7대 405건 재판정 후 59건 승격.
-  - **전문교과끼리의 연결 320건을 published에서 내림** — 이 데이터를 만든 서비스의 대상이 일반계 고등학교로 정해져, 양쪽 다 산업수요 맞춤형 전문교과인 연결은 candidate에만 둔다.
-  - candidate에서 재판정 기각 표식(quality 0.2) 729건 제외 — "AI 제안"이 아니라 "판정에서 떨어진 것".
-- `data/manifest.json` 신설(스키마 버전·출처 커밋·건수·게시 정책). `scripts/validate.mjs`가 key 기준으로 검사. GitHub Actions로 PR마다 검증.
-- 수출은 앱 리포의 `scripts/export-open-dataset.mjs`로 재현 가능.
+- 성취기준 5,907 → **6,444**. 교육부 고시 별책 PDF를 파서 19종으로 다시 추출하고 전 필드 결점 게이트(완결성·문장 verbatim·학교급·교과 귀속·영역·해설·고려사항·형식)를 통과한 정본으로 교체.
+- 고유 식별자 `key` 도입 — 같은 code가 두 과목에 쓰인 11건([12심독01-01~02-04], [12스문01-01~03]) 구분.
+- 연결 관련 변경은 [연결 리포의 CHANGELOG](https://github.com/greatsong/k-curriculum-2022-links/blob/master/CHANGELOG.md)로.
 
 ## 2026-07-23
 
-- 필수·선택 교과 누락 복원: 성취기준 5,739 → 5,907 (영어 초3~중3, 초1-2 통합교과, 중학 환경·보건·진로와 직업, 중학 사회 74).
-- 신규 성취기준용 융합 연결 1,677 생성(published 475).
+- 필수·선택 교과 누락 복원: 5,739 → 5,907 (영어 초3~중3, 초1-2 통합교과, 중학 환경·보건·진로와 직업, 중학 사회 74).
 
 ## 2026-07-14 — 최초 공개
 
-- 성취기준 5,665, 연결 published 3,452 / candidate 9,149.
+- 성취기준 5,665.

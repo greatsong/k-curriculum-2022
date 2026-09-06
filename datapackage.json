@@ -1,0 +1,256 @@
+{
+  "profile": "data-package",
+  "name": "k-curriculum-2022",
+  "version": "3.0.0",
+  "title": "2022 개정 교육과정 성취기준 (Korea 2022 Revised National Curriculum — Achievement Standards)",
+  "description": "대한민국 교육부 고시 2022 개정 교육과정의 성취기준 6,444건을 교육부 별책 PDF 원문 그대로(verbatim) 구조화한 기계 가독 데이터셋. / Machine-readable dataset of all 6,444 achievement standards of the Republic of Korea 2022 Revised National Curriculum, extracted verbatim from the Ministry of Education notice appendices.",
+  "homepage": "https://github.com/greatsong/k-curriculum-2022",
+  "keywords": [
+    "korea",
+    "curriculum",
+    "2022-revised-curriculum",
+    "achievement-standards",
+    "education",
+    "open-data",
+    "교육과정",
+    "성취기준"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "교육부 고시 제2022-33호 초·중등학교 교육과정 및 교과별 각론 별책 (Ministry of Education Notice No. 2022-33 and subject appendices)",
+      "path": "https://ncic.re.kr"
+    },
+    {
+      "title": "국가교육과정정보센터 (National Curriculum Information Center, NCIC)",
+      "path": "https://ncic.re.kr"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Sukree Song (greatsong)",
+      "role": "author",
+      "path": "https://github.com/greatsong"
+    }
+  ],
+  "created": "2026-09-06T11:34:43.005Z",
+  "resources": [
+    {
+      "name": "standards",
+      "path": "data/standards.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "description": "정본(canonical). JSON 배열, key 오름차순 / Canonical JSON array sorted by key",
+      "schema": {
+        "fields": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "고유 식별자. 기본은 code와 같고, 같은 code가 두 과목에 쓰인 11건만 \"code|subject\" 형식 / Unique identifier; equals code except for 11 code collisions, where it is \"code|subject\"",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "description": "교육부 고시의 성취기준 코드, 원문 표기 그대로 / Achievement-standard code as printed in the MOE notice",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "subject_group",
+            "type": "string",
+            "description": "교과군 (20종) / Subject group (20)",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "subject",
+            "type": "string",
+            "description": "과목 (292종) / Subject (292)",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "school_level",
+            "type": "string",
+            "description": "초등학교·중학교·고등학교. 산업수요 전문교과는 빈 문자열 / Elementary, middle, high; empty for industry-demand vocational subjects"
+          },
+          {
+            "name": "grade_group",
+            "type": "string",
+            "description": "학년군: 초1-2·초3-4·초5-6·중1-3·고공통·고선택·기타 / Grade band"
+          },
+          {
+            "name": "curriculum_category",
+            "type": "string",
+            "description": "공통·일반선택·진로선택·융합선택·선택·전문공통·전공일반·전공실무 / Curriculum category"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "원문의 성취기준 소제목(영역) / Content area heading from the source"
+          },
+          {
+            "name": "content",
+            "type": "string",
+            "description": "성취기준 본문, 고시 원문 verbatim / Standard text, verbatim from the notice",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "keywords",
+            "type": "string",
+            "description": "본문 앞 어절을 단순 분리한 값(CSV에서는 ; 구분). 검색 보조용 / Naive tokens from the text (; separated in CSV); search aid only"
+          },
+          {
+            "name": "explanation",
+            "type": "string",
+            "description": "성취기준 해설, 원문에 있는 경우(71%) / Official explanation when present (71%)"
+          },
+          {
+            "name": "application_notes",
+            "type": "string",
+            "description": "영역 단위 \"성취기준 적용 시 고려사항\", 불릿마다 • 접두 / Area-level application notes, bullets prefixed with •"
+          },
+          {
+            "name": "source_book",
+            "type": "string",
+            "description": "이 행이 실린 교육부 고시 별책 번호(예: 별책8) / MOE notice appendix number this row was extracted from (e.g. 별책8)"
+          },
+          {
+            "name": "source_doc",
+            "type": "string",
+            "description": "원문 파일 제목(예: [별책8] 수학과 교육과정(2022 개정)) — NCIC에서 같은 제목으로 열람 / Title of the source document; look it up on NCIC by this title"
+          }
+        ],
+        "primaryKey": "key"
+      }
+    },
+    {
+      "name": "standards-csv",
+      "profile": "tabular-data-resource",
+      "path": "data/standards.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "header": true
+      },
+      "description": "스프레드시트용 파생본. keywords는 ; 구분 / Derived CSV for spreadsheets; keywords joined by ;",
+      "schema": {
+        "fields": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "고유 식별자. 기본은 code와 같고, 같은 code가 두 과목에 쓰인 11건만 \"code|subject\" 형식 / Unique identifier; equals code except for 11 code collisions, where it is \"code|subject\"",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "description": "교육부 고시의 성취기준 코드, 원문 표기 그대로 / Achievement-standard code as printed in the MOE notice",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "subject_group",
+            "type": "string",
+            "description": "교과군 (20종) / Subject group (20)",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "subject",
+            "type": "string",
+            "description": "과목 (292종) / Subject (292)",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "school_level",
+            "type": "string",
+            "description": "초등학교·중학교·고등학교. 산업수요 전문교과는 빈 문자열 / Elementary, middle, high; empty for industry-demand vocational subjects"
+          },
+          {
+            "name": "grade_group",
+            "type": "string",
+            "description": "학년군: 초1-2·초3-4·초5-6·중1-3·고공통·고선택·기타 / Grade band"
+          },
+          {
+            "name": "curriculum_category",
+            "type": "string",
+            "description": "공통·일반선택·진로선택·융합선택·선택·전문공통·전공일반·전공실무 / Curriculum category"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "원문의 성취기준 소제목(영역) / Content area heading from the source"
+          },
+          {
+            "name": "content",
+            "type": "string",
+            "description": "성취기준 본문, 고시 원문 verbatim / Standard text, verbatim from the notice",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "keywords",
+            "type": "string",
+            "description": "본문 앞 어절을 단순 분리한 값(CSV에서는 ; 구분). 검색 보조용 / Naive tokens from the text (; separated in CSV); search aid only"
+          },
+          {
+            "name": "explanation",
+            "type": "string",
+            "description": "성취기준 해설, 원문에 있는 경우(71%) / Official explanation when present (71%)"
+          },
+          {
+            "name": "application_notes",
+            "type": "string",
+            "description": "영역 단위 \"성취기준 적용 시 고려사항\", 불릿마다 • 접두 / Area-level application notes, bullets prefixed with •"
+          },
+          {
+            "name": "source_book",
+            "type": "string",
+            "description": "이 행이 실린 교육부 고시 별책 번호(예: 별책8) / MOE notice appendix number this row was extracted from (e.g. 별책8)"
+          },
+          {
+            "name": "source_doc",
+            "type": "string",
+            "description": "원문 파일 제목(예: [별책8] 수학과 교육과정(2022 개정)) — NCIC에서 같은 제목으로 열람 / Title of the source document; look it up on NCIC by this title"
+          }
+        ],
+        "primaryKey": "key"
+      }
+    },
+    {
+      "name": "manifest",
+      "path": "data/manifest.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "description": "출처 커밋·건수·식별자 규약 / Provenance commit, counts, identity convention"
+    }
+  ]
+}

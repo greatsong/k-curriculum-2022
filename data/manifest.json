@@ -1,27 +1,19 @@
 {
-  "schema_version": 2,
-  "generated_at": "2026-09-06T10:23:06.589Z",
+  "schema_version": 3,
+  "generated_at": "2026-09-06T11:43:26.789Z",
   "source": {
     "app": "greatsong/curriculum-weaver",
-    "commit": "b2cc994",
-    "standards": "server/data/standards.js",
-    "links": "supabase curriculum_links"
+    "commit": "5caa97d",
+    "file": "server/data/standards.js",
+    "origin": "교육부 고시 2022 개정 교육과정 별책(NCIC)"
   },
   "counts": {
     "standards": 6444,
     "subjects": 292,
-    "subject_groups": 20,
-    "links_published": 3916,
-    "links_candidate": 11758
+    "subject_groups": 20
   },
   "identity": {
     "field": "key",
-    "note": "key === code 가 기본. 같은 code가 두 과목에 쓰인 항목만 \"code|subject\" 형식. 링크 끝점은 key 값."
-  },
-  "policy": {
-    "published_min_quality": 0.7,
-    "published_excludes_vocational_pairs": true,
-    "vocational_subject_group": "산업수요전문",
-    "candidate_excludes_rejected": true
+    "note": "key === code 가 기본. 같은 code가 두 과목에 쓰인 11건만 \"code|subject\" 형식."
   }
 }

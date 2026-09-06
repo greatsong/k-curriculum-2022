@@ -1,0 +1,30 @@
+# k-curriculum-2022
+
+> 대한민국 2022 개정 교육과정 성취기준 6,444건의 기계 가독 데이터셋. 교육부 고시 별책 PDF 원문 verbatim. 식별자는 `key`(code가 두 과목에 겹치는 11건만 "code|subject"). 라이선스 CC BY 4.0, 원문 저작권은 교육부.
+> Machine-readable dataset of all 6,444 achievement standards in Korea's 2022 Revised National Curriculum, verbatim from the Ministry of Education notice appendices. Identifier is `key` (equals `code` except 11 collisions written as "code|subject"). CC BY 4.0; source text © Ministry of Education.
+
+교과 간 융합 연결(AI 생성)은 별도 리포 / AI-generated cross-subject links live in a separate repo: https://github.com/greatsong/k-curriculum-2022-links
+
+## Data
+- [standards.json](https://raw.githubusercontent.com/greatsong/k-curriculum-2022/master/data/standards.json): 정본 JSON 배열, key 오름차순 / canonical JSON array sorted by key
+- [standards.csv](https://raw.githubusercontent.com/greatsong/k-curriculum-2022/master/data/standards.csv): 스프레드시트용 파생본(BOM, keywords는 ; 구분) / derived CSV with BOM
+- [manifest.json](https://raw.githubusercontent.com/greatsong/k-curriculum-2022/master/data/manifest.json): 출처 커밋·건수·식별자 규약 / provenance, counts, identity convention
+
+## Schema and provenance
+- [docs/SCHEMA.md](https://github.com/greatsong/k-curriculum-2022/blob/master/docs/SCHEMA.md): 필드 정의(한국어) / field definitions (Korean)
+- [docs/SCHEMA.en.md](https://github.com/greatsong/k-curriculum-2022/blob/master/docs/SCHEMA.en.md): field definitions (English)
+- [datapackage.json](https://github.com/greatsong/k-curriculum-2022/blob/master/datapackage.json): Frictionless Data Package (fields, types, constraints, sources, license)
+- [dataset.jsonld](https://github.com/greatsong/k-curriculum-2022/blob/master/dataset.jsonld): schema.org Dataset JSON-LD
+- [data/DATACARD.md](https://github.com/greatsong/k-curriculum-2022/blob/master/data/DATACARD.md): 의도된 용도·금지 용법·한계 / intended use, misuse, limitations
+- [KNOWN_ISSUES.md](https://github.com/greatsong/k-curriculum-2022/blob/master/KNOWN_ISSUES.md): 알려진 문제 / known issues
+- [CHANGELOG.md](https://github.com/greatsong/k-curriculum-2022/blob/master/CHANGELOG.md)
+
+## Invariants for agents
+- `key` is unique; join on `key`, never on `code` alone.
+- `content` is verbatim source text: do not "fix" wording; report suspected errors as issues with the source page.
+- School level and grade band come from the code prefix: [2…]=초1-2, [4…]=초3-4, [6…]=초5-6, [9…]=중1-3, [10…]=고공통, [12…]=고선택, Korean-abbreviation codes=industry-demand vocational (school_level empty, grade_group 기타).
+- Validate any change with `node scripts/validate.mjs` (CI runs it on every PR).
+
+## Optional
+- [docs/NOTES.md](https://github.com/greatsong/k-curriculum-2022/blob/master/docs/NOTES.md): 원문 파싱 난점과 교육부에 드리는 제언 / parsing difficulties of the source documents and recommendations
+- [CONTRIBUTING.md](https://github.com/greatsong/k-curriculum-2022/blob/master/CONTRIBUTING.md), [CITATION.cff](https://github.com/greatsong/k-curriculum-2022/blob/master/CITATION.cff)

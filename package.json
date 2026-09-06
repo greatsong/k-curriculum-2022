@@ -1,28 +1,13 @@
 {
   "name": "k-curriculum-2022",
-  "version": "2.1.0",
-  "description": "2022 개정 교육과정 성취기준 + 교과 간 융합 연결 그래프 (오픈 데이터셋 + 추출 알고리즘)",
+  "version": "3.0.0",
+  "description": "대한민국 2022 개정 교육과정 성취기준 6,444건 — 교육부 고시 별책 원문 verbatim 기계 가독 데이터셋 / Korea 2022 Revised National Curriculum achievement standards, verbatim, machine-readable",
   "type": "module",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/greatsong/k-curriculum-2022.git"
-  },
+  "repository": { "type": "git", "url": "https://github.com/greatsong/k-curriculum-2022.git" },
   "scripts": {
     "validate": "node scripts/validate.mjs",
-    "example": "node examples/find-fusion-partners.mjs"
+    "csv": "node scripts/build-csv.mjs"
   },
-  "dependencies": {
-    "@anthropic-ai/sdk": "^0.30.0",
-    "@supabase/supabase-js": "^2.45.0",
-    "dotenv": "^17.0.0"
-  },
-  "keywords": [
-    "korean-curriculum",
-    "2022-revised-curriculum",
-    "achievement-standards",
-    "knowledge-graph",
-    "convergence-education",
-    "open-data"
-  ]
+  "keywords": ["korea", "korean-curriculum", "2022-revised-curriculum", "achievement-standards", "education", "open-data", "교육과정", "성취기준"]
 }

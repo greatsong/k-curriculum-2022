@@ -1,8 +1,11 @@
 blank_issues_enabled: true
 contact_links:
-  - name: 💬 질문·아이디어·토론
+  - name: 🔗 융합 연결(억지 연결 신고 등)은 k-curriculum-2022-links로
+    url: https://github.com/greatsong/k-curriculum-2022-links/issues/new/choose
+    about: 교과 간 연결은 별도 리포에서 받습니다. 이 리포는 성취기준 원문만 다룹니다.
+  - name: 💬 질문·아이디어·토론 / Questions and ideas
     url: https://github.com/greatsong/k-curriculum-2022/discussions
     about: 오류 신고가 아닌 질문·활용 사례·제안은 Discussions에서 나눠주세요.
-  - name: 📖 기여 방법
-    url: https://github.com/greatsong/k-curriculum-2022/blob/main/CONTRIBUTING.md
-    about: PR로 직접 고치는 방법을 안내합니다.
+  - name: 📖 기여 방법 / How to contribute
+    url: https://github.com/greatsong/k-curriculum-2022/blob/master/CONTRIBUTING.md
+    about: 원문 대조로 고치는 PR 절차를 안내합니다.
