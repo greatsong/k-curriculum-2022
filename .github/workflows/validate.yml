@@ -1,0 +1,30 @@
+# 데이터 무결성 게이트 — PR·push마다 scripts/validate.mjs를 돌린다.
+# 성취기준 key 고유성, 링크의 참조 무결성·정규화·점수 범위를 검사하며 실패하면 머지가 막힌다.
+name: validate data
+
+on:
+  push:
+    branches: [master]
+    paths: ['data/**', 'scripts/**']
+  pull_request:
+    paths: ['data/**', 'scripts/**']
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/validate.mjs
+      - name: manifest와 실제 건수 대조
+        run: |
+          node -e '
+            const fs = require("fs")
+            const m = JSON.parse(fs.readFileSync("data/manifest.json", "utf8"))
+            const n = (f) => JSON.parse(fs.readFileSync("data/" + f, "utf8")).length
+            const actual = { standards: n("standards.json"), links_published: n("links.published.json"), links_candidate: n("links.candidate.json") }
+            for (const k of Object.keys(actual)) if (m.counts[k] !== actual[k]) { console.error(`manifest.${k}=${m.counts[k]} ≠ 실제 ${actual[k]}`); process.exit(1) }
+            console.log("manifest 건수 일치", actual)
+          '
