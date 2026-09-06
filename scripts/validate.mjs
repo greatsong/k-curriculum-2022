@@ -5,8 +5,9 @@
  *
  * 검사 항목:
  *  - JSON 파싱 가능 여부
- *  - 성취기준: code 형식·중복·필수 필드
- *  - 링크: source<target 정규화, 참조 코드 존재, 점수 범위, link_type 유효성
+ *  - 성취기준: code 형식·key 고유성·필수 필드
+ *    (같은 code가 두 과목에 쓰인 11건이 있어 고유 식별자는 key = code 또는 "code|과목")
+ *  - 링크: source<target 정규화, 참조 key 존재, 점수 범위, link_type 유효성
  * 오류가 있으면 비정상 종료(exit 1) — CI 게이트로도 쓸 수 있음.
  */
 import fs from 'fs'
@@ -29,12 +30,13 @@ const standards = read('standards.json')
 const codes = new Set()
 for (const [i, s] of standards.entries()) {
   if (!s.code || !CODE_RE.test(s.code)) fail(`[${i}] code 형식 오류: ${JSON.stringify(s.code)}`)
-  if (codes.has(s.code)) fail(`중복 code: ${s.code}`)
-  codes.add(s.code)
+  if (!s.key) fail(`${s.code}: key 누락`)
+  if (codes.has(s.key)) fail(`중복 key: ${s.key}`)
+  codes.add(s.key)
   if (!s.content || !s.content.trim()) fail(`${s.code}: content 비어 있음`)
   if (s.grade_group && !GRADE_GROUPS.has(s.grade_group)) fail(`${s.code}: 알 수 없는 grade_group "${s.grade_group}"`)
 }
-console.log(`  성취기준 ${standards.length}개 / 고유 코드 ${codes.size}개`)
+console.log(`  성취기준 ${standards.length}개 / 고유 key ${codes.size}개 / code만으로 겹치는 항목 ${standards.length - new Set(standards.map((s) => s.code)).size}개`)
 
 // ── 링크 ──────────────────────────────────────────────────
 for (const file of ['links.published.json', 'links.candidate.json']) {
