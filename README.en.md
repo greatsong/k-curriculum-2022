@@ -120,8 +120,13 @@ Finding a place where the data differs from the source is the most valuable cont
 
 ## License and citation
 
-- **Data** (`data/`): [CC BY 4.0](./LICENSE-DATA). Please credit both this repository and the source — Ministry of Education Notice No. 2022-33, "Elementary and Secondary School Curriculum" (22 Dec 2022), and its subject appendices.
+The data has two layers; see [LICENSE-DATA](./LICENSE-DATA) and [docs/LICENSE-REVIEW.md](./docs/LICENSE-REVIEW.md) (Korean).
+
+- **Source text** (standard, explanation, application notes): the content of Ministry of Education Notice No. 2022-33. We understand it to be a non-protected work under Article 7(2) of the Korean Copyright Act (notices of the state); this repository imposes no conditions on it. A written confirmation has been requested from the Ministry and will be published on reply.
+- **What this repository adds** (structuring, `key`, provenance, CSV, metadata, docs): [CC BY 4.0](./LICENSE-DATA)
 - **Code** (`scripts/`): [MIT](./LICENSE)
+
+When reusing, please credit both the source (MOE Notice No. 2022-33, via NCIC) and this repository.
 - Cite via [CITATION.cff](./CITATION.cff) (GitHub's "Cite this repository" button gives BibTeX/APA).
 
 ## Further reading

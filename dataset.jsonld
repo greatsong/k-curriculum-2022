@@ -7,7 +7,7 @@
   "url": "https://github.com/greatsong/k-curriculum-2022",
   "sameAs": "https://github.com/greatsong/k-curriculum-2022",
   "identifier": "https://github.com/greatsong/k-curriculum-2022",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "isAccessibleForFree": true,
   "inLanguage": "ko",
@@ -46,12 +46,12 @@
     {
       "@type": "DataDownload",
       "encodingFormat": "application/json",
-      "contentUrl": "https://raw.githubusercontent.com/greatsong/k-curriculum-2022/v3.0.0/data/standards.json"
+      "contentUrl": "https://raw.githubusercontent.com/greatsong/k-curriculum-2022/v3.0.1/data/standards.json"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://raw.githubusercontent.com/greatsong/k-curriculum-2022/v3.0.0/data/standards.csv"
+      "contentUrl": "https://raw.githubusercontent.com/greatsong/k-curriculum-2022/v3.0.1/data/standards.csv"
     }
   ],
   "variableMeasured": [
@@ -125,5 +125,7 @@
       "name": "source_doc",
       "description": "원문 파일 제목(예: [별책8] 수학과 교육과정(2022 개정)) — NCIC에서 같은 제목으로 열람 / Title of the source document; look it up on NCIC by this title"
     }
-  ]
+  ],
+  "copyrightNotice": "성취기준 원문은 교육부 고시 제2022-33호의 내용으로 저작권법 제7조 제2호(국가의 고시)에 따라 보호받지 못하는 저작물로 이해합니다. CC BY 4.0은 이 저장소가 더한 구조화·식별자·출처·메타데이터에 적용됩니다. / Source text is the content of MOE Notice No. 2022-33, understood as a non-protected state notice under Art. 7(2) of the Korean Copyright Act; CC BY 4.0 applies to the structuring, identifiers, provenance and metadata added here.",
+  "creditText": "Source: Ministry of Education Notice No. 2022-33 (2022 Revised National Curriculum) via NCIC https://ncic.re.kr · Dataset: k-curriculum-2022 (greatsong), CC BY 4.0"
 }

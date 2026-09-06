@@ -1,7 +1,7 @@
 {
   "profile": "data-package",
   "name": "k-curriculum-2022",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "title": "2022 개정 교육과정 성취기준 (Korea 2022 Revised National Curriculum — Achievement Standards)",
   "description": "대한민국 교육부 고시 2022 개정 교육과정의 성취기준 6,444건을 교육부 별책 PDF 원문 그대로(verbatim) 구조화한 기계 가독 데이터셋. / Machine-readable dataset of all 6,444 achievement standards of the Republic of Korea 2022 Revised National Curriculum, extracted verbatim from the Ministry of Education notice appendices.",
   "homepage": "https://github.com/greatsong/k-curriculum-2022",
@@ -18,13 +18,13 @@
   "licenses": [
     {
       "name": "CC-BY-4.0",
-      "title": "Creative Commons Attribution 4.0 International",
+      "title": "Creative Commons Attribution 4.0 International — applies to the structuring, identifiers, provenance, CSV, metadata and documentation added by this repository / 이 저장소가 더한 구조화·식별자·출처·CSV·메타데이터·문서에 적용",
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
   "sources": [
     {
-      "title": "교육부 고시 제2022-33호 초·중등학교 교육과정 및 교과별 각론 별책 (Ministry of Education Notice No. 2022-33 and subject appendices)",
+      "title": "교육부 고시 제2022-33호 초·중등학교 교육과정 및 교과별 각론 별책 — 국가의 고시로서 저작권법 제7조 제2호의 보호받지 못하는 저작물로 이해함(교육부 확인 요청 중) / MOE Notice No. 2022-33 and subject appendices — understood as a non-protected state notice under Copyright Act Art. 7(2); confirmation requested from the Ministry",
       "path": "https://ncic.re.kr"
     },
     {

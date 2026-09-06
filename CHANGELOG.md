@@ -2,6 +2,13 @@
 
 릴리스는 `vX.Y.Z`로 태그하고 GitHub Release에 `standards.json`·`standards.csv`를 첨부합니다. 스키마가 바뀌면 `data/manifest.json`의 `schema_version`이 올라갑니다. / Releases are tagged `vX.Y.Z` with `standards.json` and `standards.csv` attached; `schema_version` in `data/manifest.json` increments on schema changes.
 
+## v3.0.1 — 2026-09-06 · 라이선스 고지를 세 층으로 / License notice restructured
+
+- 데이터 자체는 바뀌지 않았습니다. / No data change.
+- [LICENSE-DATA](./LICENSE-DATA)를 다시 썼습니다. **원문 층**(교육부 고시, 저작권법 제7조 제2호에 따라 보호받지 못하는 저작물로 이해, 조건 없음) / **이 저장소가 더한 층**(CC BY 4.0) / **출처 표기**(의무가 아니라 요청)를 분리했습니다. 종전 문안은 세 층을 뭉뚱그려 원문에도 CC BY 조건이 걸리는 것처럼 읽혔습니다.
+- [docs/LICENSE-REVIEW.md](./docs/LICENSE-REVIEW.md) 신설: 확인한 사실(고시 붙임, 제7조, 공공누리 미표시, 교육부·NCIC 정책), 해석, 남은 불확실성, 교육부 서면 문의 내용, 시나리오별 대응.
+- `datapackage.json`·`dataset.jsonld`의 라이선스·출처 설명을 같은 내용으로 맞췄습니다.
+
 ## v3.0.0 — 2026-09-06 · 성취기준 전용 리포로 / Standards-only repository
 
 - **교과 간 융합 연결을 [k-curriculum-2022-links](https://github.com/greatsong/k-curriculum-2022-links)로 분리했습니다.** 성취기준은 교육부 원문 verbatim이라 느리게 바뀌는 공공재이고, 연결은 AI가 만들어 모델·정책에 따라 자주 바뀝니다. 둘을 한 리포에 두면 성취기준의 신뢰도가 연결의 불확실성에 묻혀 나눴습니다. 연결 리포는 이 리포의 릴리스 태그에 고정됩니다. / Cross-subject links moved to a separate repository pinned to a release tag of this one.
