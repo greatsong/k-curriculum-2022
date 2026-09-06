@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-06T06:57:12.939Z",
+  "generated_at": "2026-09-06T10:23:06.589Z",
   "source": {
     "app": "greatsong/curriculum-weaver",
-    "commit": "fd909f6",
+    "commit": "b2cc994",
     "standards": "server/data/standards.js",
     "links": "supabase curriculum_links"
   },
@@ -11,8 +11,8 @@
     "standards": 6444,
     "subjects": 292,
     "subject_groups": 20,
-    "links_published": 3874,
-    "links_candidate": 11088
+    "links_published": 3916,
+    "links_candidate": 11758
   },
   "identity": {
     "field": "key",

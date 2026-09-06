@@ -4180,6 +4180,94 @@
   "generation_method": "ai"
  },
  {
+  "source_code": "[10통사1-04-02]",
+  "target_code": "[12스문01-05]",
+  "link_type": "cross_subject",
+  "rationale": "통합사회의 문화 변동과 전통문화 의의 탐색을, 스페인어권 문화 수업의 상호문화적 비교(한국-스페인권) 활동과 결합할 수 있다. 학생들은 세계화 속 전통문화의 변화를 한국과 스페인어권 사례로 비교·분석하는 토론을 진행할 수 있다.",
+  "integration_theme": "한국-스페인어권 전통문화 변동 비교",
+  "lesson_hook": "학생들이 한국과 스페인어권 국가의 전통 명절·관습이 세계화로 어떻게 변화했는지 비교하고, 스페인어로 그 공통점과 차이점을 발표한다.",
+  "semantic_score": 0.352,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[10통사1-04-03]",
+  "target_code": "[12독문01-06]",
+  "link_type": "cross_subject",
+  "rationale": "통합사회의 문화상대주의 개념을 독일어권 문화 수업의 한국-독일 문화 비교 활동에 적용하여, 학생들이 문화적 차이를 상대주의적으로 해석하고 보편 윤리 관점에서 평가하는 심화 토론을 구성할 수 있다.",
+  "integration_theme": "문화 비교와 상대주의적 평가",
+  "lesson_hook": "독일 문화와 한국 문화의 차이를 비교한 뒤 상대주의와 보편윤리 관점에서 평가 토론을 진행한다.",
+  "semantic_score": 0.471,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[10통사1-04-03]",
+  "target_code": "[12심프05-04]",
+  "link_type": "application",
+  "rationale": "프랑스어권 문화와 한국 문화를 비교하는 심화 프랑스어 활동은 통합사회의 문화상대주의적 태도와 보편윤리 관점에서 자문화·타문화를 평가하는 목표에 직접 적용될 수 있다. 학생들은 프랑스어로 비교한 문화적 차이를 보편윤리 기준으로 재평가하는 토론을 진행할 수 있다.",
+  "integration_theme": "문화상대주의로 바라보는 프랑스어권 문화 비교",
+  "lesson_hook": "프랑스어권 문화와 한국 문화의 차이를 비교하고 보편윤리 관점에서 평가하는 토론하기",
+  "semantic_score": 0.407,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[10통사1-04-03]",
+  "target_code": "[12아문01-06]",
+  "link_type": "application",
+  "rationale": "통합사회에서 배운 문화상대주의와 보편윤리 평가틀을 활용해 학생들이 한국문화와 아랍문화의 공통점과 차이점을 아랍어로 표현하는 융합 수업이 가능하다. 사회 시간에 익힌 평가 기준을 아랍 문화 시간의 비교 활동에 직접 적용할 수 있다.",
+  "integration_theme": "문화상대주의 관점의 한국-아랍 문화 비교",
+  "lesson_hook": "통합사회에서 배운 문화상대주의 기준으로 한국-아랍 문화 차이를 분석한 뒤 아랍어로 발표한다.",
+  "semantic_score": 0.462,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[10통사1-04-03]",
+  "target_code": "[12일어05-03]",
+  "link_type": "application",
+  "rationale": "통합사회에서 배운 문화상대주의와 보편윤리 관점을 일본어 수업에서 다루는 실제 일본 문화 사례(온오프라인 의견 공유)에 적용해볼 수 있다. 학생들이 일본 문화를 상호문화적으로 소개·비교하며 자문화중심주의를 경계하고 보편윤리 기준으로 평가하는 토론을 구성할 수 있다.",
+  "integration_theme": "문화상대주의로 바라보는 일본 문화",
+  "lesson_hook": "일본어로 일본의 특정 문화(예: 오모테나시, 장인정신)를 조사·발표하고 통합사회의 문화상대주의·보편윤리 기준으로 이를 평가하는 토론 수업을 진행한다.",
+  "semantic_score": 0.44,
+  "quality_score": 0.85,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[10통사1-04-03]",
+  "target_code": "[12프어05-04]",
+  "link_type": "application",
+  "rationale": "프랑스어 수업의 상호문화적 비교 활동은 통합사회에서 다루는 문화 상대주의와 보편 윤리 개념을 구체적 사례로 실습할 수 있는 좋은 기회이다. 학생들은 프랑스어권 문화를 비교하며 자문화·타문화를 보편 윤리 관점에서 평가하는 토론을 진행한다.",
+  "integration_theme": "프랑스어권 문화 비교를 통한 문화상대주의와 보편윤리",
+  "lesson_hook": "프랑스어로 한국과 프랑스어권 문화의 차이를 비교한 뒤, 보편 윤리 관점에서 평가하는 토론 활동",
+  "semantic_score": 0.367,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[10통사1-04-03]",
+  "target_code": "[9생아05-04]",
+  "link_type": "cross_subject",
+  "rationale": "통합사회의 문화상대주의적 태도와 보편윤리 논의는 생활 아랍어의 한국-아랍 문화 비교 표현 활동과 직접 맞닿아 있다. 학생들은 아랍 문화 사례를 구체적 자료로 삼아 자문화-타문화 평가라는 사회 교과의 핵심 질문을 탐구할 수 있다.",
+  "integration_theme": "문화상대주의 관점에서 아랍 문화 이해하기",
+  "lesson_hook": "아랍어 시간에 배운 한국-아랍 문화 차이 사례를 통합사회 시간에 문화상대주의와 보편윤리 관점에서 평가·토론한다.",
+  "semantic_score": 0.468,
+  "quality_score": 0.85,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[10통사1-04-03]",
+  "target_code": "[9생일05-03]",
+  "link_type": "application",
+  "rationale": "통합사회의 문화상대주의·보편윤리 개념을 한일 문화 비교라는 구체적 사례로 적용해볼 수 있다. 학생들이 일본어로 한일 문화 공통점과 차이점을 온오프라인에서 공유한 뒤, 이를 자문화중심주의와 문화상대주의 관점에서 평가하는 토의로 이어갈 수 있다.",
+  "integration_theme": "문화상대주의로 바라본 한일 문화 비교",
+  "lesson_hook": "일본어 수업에서 조사한 한일 생활문화 차이를 통합사회 시간에 문화상대주의·보편윤리 잣대로 재평가하는 토의를 진행한다.",
+  "semantic_score": 0.494,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
   "source_code": "[10통사1-04-04]",
   "target_code": "[9사(일사)02-03]",
   "link_type": "extension",
@@ -4187,6 +4275,17 @@
   "integration_theme": "문화 다양성 이해에서 갈등 해결로",
   "lesson_hook": "다문화 사례 토의를 갈등 해결 방안 제안 활동으로 확장하기",
   "semantic_score": 0.696,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[10통사1-04-04]",
+  "target_code": "[9생일05-03]",
+  "link_type": "application",
+  "rationale": "통합사회의 다문화사회 갈등해결 방안 모색에 생활일본어에서 다루는 한일 문화 공통점·차이점 상호문화적 논의를 실제 사례로 활용할 수 있다. 학생들이 한일 문화차이를 온오프라인으로 소통하며 다문화 갈등 완화 방안을 함께 도출하는 프로젝트가 가능하다.",
+  "integration_theme": "한일 문화 비교를 통한 다문화 이해",
+  "lesson_hook": "생활일본어로 한일 문화 차이를 온라인 교류로 나누고, 통합사회 시간에 이를 다문화사회 갈등해결 사례로 재구성해 방안을 제시한다.",
+  "semantic_score": 0.439,
   "quality_score": 0.8,
   "generation_method": "ai"
  },
@@ -14883,6 +14982,28 @@
   "generation_method": "ai"
  },
  {
+  "source_code": "[12독문01-06]",
+  "target_code": "[12세사04-02]",
+  "link_type": "cross_subject",
+  "rationale": "독일은 냉전의 상징적 분단국가로, 세계사에서 배운 냉전 시기 사회·문화 변화를 독일어권 문화 비교 수업의 구체적 사례로 활용할 수 있다. 학생들은 독일 분단과 통일 전후 문화 변화를 독일어 자료로 조사하며 냉전사와 문화 비교를 동시에 학습한다.",
+  "integration_theme": "냉전과 독일 분단이 만든 문화 변화",
+  "lesson_hook": "독일 분단·통일 시기의 신문·사진 자료를 독일어로 읽고 냉전이 만든 문화 차이를 비교 발표한다.",
+  "semantic_score": 0.372,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12독어05-02]",
+  "target_code": "[12세사04-02]",
+  "link_type": "cross_subject",
+  "rationale": "독일어 수업의 매체 활용 조사 활동을 냉전기 독일 분단·통일이라는 세계사적 사건에 적용하면, 학생들은 다양한 매체(신문, 영상 자료 등)를 통해 독일어로 냉전기 사회문화 변화를 조사하고 설명하는 융합 활동을 할 수 있다.",
+  "integration_theme": "냉전과 독일 사회문화 변화 탐구",
+  "lesson_hook": "냉전기 독일 관련 매체 자료를 독일어로 조사하여 사회문화 변화를 설명하는 발표 활동",
+  "semantic_score": 0.363,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
   "source_code": "[12독작01-03]",
   "target_code": "[12심독01-04]",
   "link_type": "same_concept",
@@ -15462,6 +15583,17 @@
   "integration_theme": "사실적 정보 전달 능력",
   "lesson_hook": "동일한 정보를 독일어와 영어로 각각 설명하고 표현 차이를 비교한다.",
   "semantic_score": 0.558,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12동역02-02]",
+  "target_code": "[12베문01-06]",
+  "link_type": "cross_subject",
+  "rationale": "동아시아 역사 기행에서 다루는 종교·사상 중심의 교류 양상을, 베트남 문화 수업에서 한국-베트남 문화 비교로 구체화할 수 있다. 학생들은 유교·불교 등 공유된 사상적 기반이 양국 문화에 남긴 흔적을 찾아 상호문화적 관점에서 비교·표현하는 활동을 할 수 있다.",
+  "integration_theme": "동아시아 사상 교류와 한-베 문화 비교",
+  "lesson_hook": "학생들이 불교·유교가 베트남과 한국 문화에 남긴 흔적을 찾아 비교하고, 베트남어로 그 공통점과 차이점을 표현하는 발표를 진행한다.",
+  "semantic_score": 0.355,
   "quality_score": 0.8,
   "generation_method": "ai"
  },
@@ -18052,6 +18184,17 @@
  },
  {
   "source_code": "[12문학01-05]",
+  "target_code": "[12심아05-05]",
+  "link_type": "application",
+  "rationale": "문학의 한국-외국 작품 비교와 심화 아랍어의 상호문화적 한국-아랍 문화 비교가 직접적으로 맞닿아 있어, 아랍 문학 작품을 함께 읽고 한국 작품과 비교하며 언어와 문학을 통합적으로 다룰 수 있다.",
+  "integration_theme": "한국-아랍 문학 비교와 상호문화 이해",
+  "lesson_hook": "아랍 문학 작품(번역)과 한국 작품을 비교하며 공통점과 차이점을 아랍어로 표현해보는 수업을 진행한다.",
+  "semantic_score": 0.495,
+  "quality_score": 0.85,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12문학01-05]",
   "target_code": "[12영Ⅰ-01-08]",
   "link_type": "cross_subject",
   "rationale": "영어를 통한 타 문화 포용·공감과 문학에서 한국 작품과 외국 작품을 비교하며 보편성·특수성을 파악하는 것은 비교문화 역량을 공유한다. 영어 원작 소설과 한국 번역·각색 작품을 비교 감상하는 융합 수업이 가능하다.",
@@ -18069,6 +18212,17 @@
   "integration_theme": "한국문학과 영미문학의 비교 읽기",
   "lesson_hook": "같은 주제의 한국 작품과 영미 작품을 비교 분석하는 문학 수업",
   "semantic_score": 0.621,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12문학01-05]",
+  "target_code": "[12프어05-04]",
+  "link_type": "cross_subject",
+  "rationale": "프랑스어권 문화를 상호문화적으로 비교하는 활동과 문학 수업의 한국-외국 작품 비교 활동이 같은 목표(보편성과 특수성 이해)를 공유하므로, 프랑스 문학 작품을 매개로 두 수업을 통합할 수 있다.",
+  "integration_theme": "문학을 통한 상호문화 비교",
+  "lesson_hook": "프랑스어권 문화 비교 활동과 연계해 프랑스 문학 작품과 한국 작품을 비교하며 보편성과 특수성을 논의한다.",
+  "semantic_score": 0.419,
   "quality_score": 0.8,
   "generation_method": "ai"
  },
@@ -22165,6 +22319,50 @@
   "generation_method": "ai"
  },
  {
+  "source_code": "[12베문01-06]",
+  "target_code": "[12사문03-03]",
+  "link_type": "cross_subject",
+  "rationale": "한국 내 베트남 이주민이 많은 현실을 고려할 때, 베트남 문화 비교 활동은 사회과의 다문화 사회 이주민 문화 이해와 직접적으로 연결된다. 학생들은 실제 이주민 문화 사례를 상호문화적 관점에서 분석할 수 있다.",
+  "integration_theme": "다문화 사회 속 베트남 이주민 문화",
+  "lesson_hook": "한국 내 베트남 이주민 문화 사례를 조사하고, 베트남과 한국 문화의 공통점·차이점을 비교해 문화 다양성 증진 방안을 제안한다.",
+  "semantic_score": 0.44,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12베어05-05]",
+  "target_code": "[12세영01-04]",
+  "link_type": "application",
+  "rationale": "세계문화와영어에서 학습한 문화 비교·대조(보편성/특수성) 개념을 베트남어 수업의 한국-베트남 문화 비교 활동에 직접 적용할 수 있다. 학생들은 개념적 틀을 언어로 표현하는 실제 산출물을 만들게 된다.",
+  "integration_theme": "상호문화 비교 틀의 실제 적용",
+  "lesson_hook": "세계문화와영어에서 배운 문화 비교·대조 틀을 이용해 베트남어 수업에서 한국-베트남 문화 공통점과 차이점을 베트남어로 발표한다.",
+  "semantic_score": 0.56,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12베어05-05]",
+  "target_code": "[12세영01-06]",
+  "link_type": "application",
+  "rationale": "세계문화와영어의 비판적 문화 성찰 틀을 베트남어 수업의 한국-베트남 문화 비교 활동에 적용하면 단순 비교를 넘어 자신의 문화 인식을 성찰하는 심화 학습이 가능하다.",
+  "integration_theme": "비판적 문화 성찰과 상호문화 비교",
+  "lesson_hook": "세계문화와영어의 비판적 문화 성찰 틀을 적용해 베트남어 시간에 한국-베트남 문화 비교 발표문을 작성하고 자신의 문화 인식을 성찰한다.",
+  "semantic_score": 0.549,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12베어05-05]",
+  "target_code": "[12여지02-02]",
+  "link_type": "cross_subject",
+  "rationale": "여행지리 시간에 베트남 사원, 시장 등 문화경관의 형성배경을 배우고, 베트남어 시간에 한국-베트남 문화의 공통점과 차이점을 베트남어로 표현하며 여행지 주민을 배려하는 태도를 함께 기를 수 있다.",
+  "integration_theme": "베트남 문화경관과 상호문화 이해",
+  "lesson_hook": "베트남 문화경관을 배운 뒤 베트남어로 한국-베트남 문화 비교를 표현하고 여행지 주민 배려 태도 논의하기",
+  "semantic_score": 0.379,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
   "source_code": "[12보건01-02]",
   "target_code": "[12실통04-01]",
   "link_type": "application",
@@ -22458,6 +22656,39 @@
   "integration_theme": "미디어 비판적 분석의 음악 산업 적용",
   "lesson_hook": "미디어 비판적 분석 틀을 음악 산업 사례에 적용해 보고서 쓰기",
   "semantic_score": 0.604,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12사문03-03]",
+  "target_code": "[12일어05-03]",
+  "link_type": "application",
+  "rationale": "사회와 문화의 다문화 사회·이주민 문화 분석 관점을 일본어 수업의 일본 문화 공유 활동에 적용할 수 있다. 일본어로 나눈 일본 문화 의견을 사회와 문화 시간의 하위문화-주류문화 관계, 문화 다양성 증진 방안 논의와 연결해 심화 토론을 진행한다.",
+  "integration_theme": "타문화 공유를 통한 문화 다양성 논의",
+  "lesson_hook": "일본어 시간에 온오프라인으로 공유한 일본 문화 의견을 사회와 문화 시간의 이주민 문화 다양성 토론에 연계한다.",
+  "semantic_score": 0.489,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12사문03-03]",
+  "target_code": "[9생중05-02]",
+  "link_type": "application",
+  "rationale": "사회와 문화의 다문화 사회 이주민 문화 분석틀을 중국어 수업의 한중 문화 비교 활동에 적용할 수 있다. 중국어로 조사한 중국 문화와 한중 비교 내용을 사회와 문화 시간의 '하위문화-주류문화 관계', '문화 다양성 증진 방안' 논의에 사례로 연결한다.",
+  "integration_theme": "이주민·타문화 사례로 살펴보는 문화 다양성",
+  "lesson_hook": "생활 중국어에서 조사한 한중 문화 비교 사례를 사회와 문화 시간의 이주민 문화 다양성 토론 자료로 활용한다.",
+  "semantic_score": 0.49,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12사문03-04]",
+  "target_code": "[12프문01-06]",
+  "link_type": "application",
+  "rationale": "사회와 문화에서 다룬 문화 세계화 쟁점을 프랑스어권 문화 수업의 한국-프랑스어권 비교 활동의 분석틀로 활용할 수 있다. 학생들은 세계화로 인한 문화 변동 사례를 프랑스어권 문화에서 찾아 토론한다.",
+  "integration_theme": "세계화와 문화 변동 속 한국-프랑스어권 비교",
+  "lesson_hook": "문화 세계화 쟁점을 프랑스어권 사례로 조사하고 한국 문화와 비교 발표한다.",
+  "semantic_score": 0.462,
   "quality_score": 0.8,
   "generation_method": "ai"
  },
@@ -24728,6 +24959,17 @@
   "generation_method": "ai"
  },
  {
+  "source_code": "[12세사03-02]",
+  "target_code": "[12프문01-04]",
+  "link_type": "application",
+  "rationale": "프랑스 혁명 관련 원문 자료(인권선언 등)를 프랑스어로 읽고 분석하는 활동으로 세계사와 프랑스어권 문화 수업을 직접 연결할 수 있다. 학생들은 프랑스어 자료를 통해 혁명의 시민사회 형성 과정을 심화 학습한다.",
+  "integration_theme": "프랑스 혁명 원문으로 배우는 시민사회 형성",
+  "lesson_hook": "프랑스 인권선언 원문을 프랑스어로 읽고 시민사회 형성 과정을 분석·발표한다.",
+  "semantic_score": 0.362,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
   "source_code": "[12세사03-03]",
   "target_code": "[12인경04-01]",
   "link_type": "extension",
@@ -25021,6 +25263,61 @@
   "integration_theme": "지형 개발과 생태계 지속가능성",
   "lesson_hook": "특정 지형 개발 갈등 사례를 지리적 관점과 생태계 영향 관점에서 함께 분석해 지속가능한 대안을 제안해보자.",
   "semantic_score": 0.542,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12세지02-04]",
+  "target_code": "[12일어05-02]",
+  "link_type": "application",
+  "rationale": "세계시민지리에서 다루는 세계 음식과 축제의 지리적 배경을 일본의 실제 음식·축제 사례에 적용해 조사하고, 이를 일본어로 소개 콘텐츠를 제작하는 수업으로 자연스럽게 연결된다. 학생은 문화 다양성 이해와 일본어 표현력을 동시에 기른다.",
+  "integration_theme": "일본 음식·축제 조사 및 일본어 콘텐츠 제작",
+  "lesson_hook": "학생이 일본의 전통 축제(예: 마츠리)를 조사해 일본어 설명이 담긴 카드뉴스를 제작한다.",
+  "semantic_score": 0.375,
+  "quality_score": 0.85,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12세지02-04]",
+  "target_code": "[12일어05-03]",
+  "link_type": "application",
+  "rationale": "세계시민지리의 음식·축제 지리 탐구를 일본 문화 내용과 연계하여, 학생이 일본의 음식·축제 자료를 조사한 뒤 상호문화적 관점에서 온라인으로 의견을 공유하는 활동으로 확장할 수 있다.",
+  "integration_theme": "일본 음식·축제에 대한 상호문화적 온라인 토론",
+  "lesson_hook": "학생이 일본 축제 자료를 조사한 뒤 온라인 게시판에 일본어로 소감과 비교 의견을 공유한다.",
+  "semantic_score": 0.372,
+  "quality_score": 0.85,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12세지02-04]",
+  "target_code": "[12프문01-03]",
+  "link_type": "application",
+  "rationale": "세계지리에서 배운 음식·축제를 통한 문화다양성 탐구를, 프랑스어권 문화 시간에 매체를 활용해 프랑스어권 국가의 음식과 축제를 조사·정리하는 활동으로 구체화할 수 있다. 두 과목이 만나 지리적 설명과 언어문화 조사가 결합된 프로젝트 수업이 가능하다.",
+  "integration_theme": "프랑스어권 음식·축제로 보는 문화다양성",
+  "lesson_hook": "프랑스어권 국가의 전통 음식과 축제를 조사하고 그 지리적 배경을 설명하는 발표를 한다.",
+  "semantic_score": 0.309,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12세지02-04]",
+  "target_code": "[9생일05-01]",
+  "link_type": "application",
+  "rationale": "세계시민과 지리에서 다루는 세계 음식·축제의 문화다양성 탐구를 생활일본어 수업의 일본 문화 이해와 직접 연결할 수 있다. 학생은 일본의 음식과 축제 문화를 조사하여 지리적으로 설명하고 일본어 수업에서 관련 문화 내용을 학습한다.",
+  "integration_theme": "일본 음식·축제 문화와 세계 문화다양성",
+  "lesson_hook": "일본의 전통 축제와 음식 문화를 조사해 지리적으로 설명하고 일본어 시간에 관련 문화 내용을 학습한다.",
+  "semantic_score": 0.382,
+  "quality_score": 0.85,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12세지02-04]",
+  "target_code": "[9생중05-02]",
+  "link_type": "application",
+  "rationale": "생활 중국어 시간에 중국의 춘절, 딤섬 등 음식과 축제를 중국어로 조사·발표하고, 세계시민과 지리 시간에 이를 지리적 관점에서 설명하며 문화다양성 보존 방안을 논의할 수 있다. 언어로 습득한 구체적 문화 정보가 지리적 탐구의 자료가 된다.",
+  "integration_theme": "중국 음식·축제로 배우는 문화다양성과 지리",
+  "lesson_hook": "중국어로 조사한 중국 축제와 음식을 지리 수업에서 문화다양성 관점으로 발표하기",
+  "semantic_score": 0.38,
   "quality_score": 0.8,
   "generation_method": "ai"
  },
@@ -27533,6 +27830,17 @@
   "generation_method": "ai"
  },
  {
+  "source_code": "[12심러05-03]",
+  "target_code": "[9진로03-02]",
+  "link_type": "application",
+  "rationale": "러시아어 문화 조사 활동을 자신의 진로 분야와 연계하면 진로와 직업 교과의 진로 경로 탐색과 자연스럽게 결합된다. 학생은 관심 진로(예: 무역, 예술, 외교)와 러시아 문화를 연결해 조사하고 러시아어로 설명하는 발표를 수행한다.",
+  "integration_theme": "러시아어·문화 기반 진로 탐색",
+  "lesson_hook": "자신의 관심 진로와 러시아 문화를 연계 조사하여 러시아어로 발표하고 진로 경로를 설정한다.",
+  "semantic_score": 0.383,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
   "source_code": "[12심리02-02]",
   "target_code": "[12아동02-03]",
   "link_type": "same_concept",
@@ -27705,6 +28013,17 @@
   "integration_theme": "필자 의도 추론의 다국어 읽기 전략",
   "lesson_hook": "동일한 주제의 스페인어와 영어 글을 읽고 필자의 의도를 비교 추론해본다.",
   "semantic_score": 0.606,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12심아05-05]",
+  "target_code": "[9사(일사)02-03]",
+  "link_type": "cross_subject",
+  "rationale": "아랍어 수업에서 한국-아랍 문화의 공통점과 차이점을 표현하는 활동은 사회 교과의 다양한 문화 사례 조사 및 문화 이해 태도 토의와 직접 연결된다. 아랍 문화 사례를 구체적 소재로 삼아 문화 상대주의 태도를 함께 기를 수 있다.",
+  "integration_theme": "한국-아랍 문화 비교를 통한 문화 이해 태도",
+  "lesson_hook": "아랍어 시간에 조사한 한국-아랍 문화 비교 자료를 사회 시간에 발표하고 문화를 이해하는 바람직한 태도를 토의한다.",
+  "semantic_score": 0.468,
   "quality_score": 0.8,
   "generation_method": "ai"
  },
@@ -28201,6 +28520,17 @@
   "lesson_hook": "온실가스 배출 데이터를 바탕으로 특정 여행지의 미래 기후경관을 예측해보는 간접여행 프로젝트를 설계한다.",
   "semantic_score": 0.528,
   "quality_score": 0.85,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12여지03-03]",
+  "target_code": "[12일어05-02]",
+  "link_type": "application",
+  "rationale": "여행지리에서 배운 로컬 큐레이터 관점의 콘텐츠 기획 방법론을 일본어 수업의 일본 문화 콘텐츠 제작 활동에 적용하면 지역성과 문화적 가치를 담은 실제적인 여행 콘텐츠 제작이 가능하다.",
+  "integration_theme": "지역 문화 콘텐츠 기획과 제작",
+  "lesson_hook": "여행지리에서 배운 로컬 큐레이터 관점의 콘텐츠 기획법을 활용해 일본어 시간에 일본 지역 문화를 조사·정리한 여행 콘텐츠를 제작한다.",
+  "semantic_score": 0.414,
+  "quality_score": 0.8,
   "generation_method": "ai"
  },
  {
@@ -33429,6 +33759,28 @@
   "generation_method": "ai"
  },
  {
+  "source_code": "[12일문01-07]",
+  "target_code": "[12진로01-02]",
+  "link_type": "application",
+  "rationale": "일본 문화 수업에서 학생이 자신의 진로 관심 분야(예: 애니메이션, 요리, 패션)와 연계해 일본 문화를 조사하는 활동이 진로와 직업 과목의 진로 특성 점검과 직접 연결된다. 조사 결과를 바탕으로 자신의 강점·보완점을 성찰하는 통합 활동으로 설계할 수 있다.",
+  "integration_theme": "관심 진로 분야와 연계한 일본 문화 탐구",
+  "lesson_hook": "학생이 희망 진로와 관련된 일본 문화 주제를 조사·발표하고, 이를 통해 자신의 진로 특성을 점검하는 활동을 진행한다.",
+  "semantic_score": 0.457,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[12일어05-03]",
+  "target_code": "[9사(일사)02-03]",
+  "link_type": "cross_subject",
+  "rationale": "일본어 수업의 상호문화적 온오프라인 의견 공유 활동은 사회 교과에서 다양한 문화 사례를 비교하고 바람직한 태도를 토의하는 활동과 동일한 교육목표를 공유한다. 실제로 한일 문화 비교 온라인 토론을 공동 프로젝트로 설계할 수 있다.",
+  "integration_theme": "상호문화적 관점에서 문화 이해 태도 기르기",
+  "lesson_hook": "한국-일본 학생 간 온라인 교류로 두 나라 문화 차이를 공유하고, 사회 시간에 문화 이해의 바람직한 태도를 토의한다.",
+  "semantic_score": 0.468,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
   "source_code": "[12자립01-01]",
   "target_code": "[9보02-03]",
   "link_type": "same_concept",
@@ -36939,6 +37291,17 @@
  },
  {
   "source_code": "[2국06-02]",
+  "target_code": "[2슬04-03]",
+  "link_type": "cross_subject",
+  "rationale": "슬기로운 생활에서 관심 주제를 정해 조사한 내용을 국어 시간에 글과 그림으로 표현하는 통합 차시가 가능하다. 조사한 경험을 정리해 나만의 이야기책을 만드는 활동으로 두 성취기준을 자연스럽게 연결할 수 있다.",
+  "integration_theme": "조사한 경험을 글과 그림으로 표현하기",
+  "lesson_hook": "관심 있는 주제를 조사한 뒤 그 내용을 그림일기 형식으로 표현해 발표한다.",
+  "semantic_score": 0.471,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[2국06-02]",
   "target_code": "[2즐02-04]",
   "link_type": "same_concept",
   "rationale": "두 성취기준 모두 자신의 경험과 상상을 그림 및 글로 표현하는 활동으로, 통합교과 수업에서 국어의 글쓰기와 즐거운생활의 상상 표현을 하나의 창작 활동으로 결합할 수 있다. 예를 들어 상상한 세상을 그림으로 그리고 이를 짧은 글로 설명하는 통합 프로젝트가 가능하다.",
@@ -36990,6 +37353,17 @@
   "lesson_hook": "가족 구성원의 역할을 조사한 후 배려 실천 카드 만들기",
   "semantic_score": 0.713,
   "quality_score": 0.85,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[2바01-04]",
+  "target_code": "[4도04-02]",
+  "link_type": "prerequisite",
+  "rationale": "1-2학년에서 동식물을 돌보고 생태환경 속에서 더불어 사는 경험을 한 뒤, 3-4학년에서 인간과 자연의 공생 이유를 개념적으로 이해하고 실천 계획을 세우는 도덕 수업으로 자연스럽게 심화된다. 텃밭 가꾸기·생태관찰 활동에서 시작해 공생 실천 계획 세우기로 이어질 수 있다.",
+  "integration_theme": "생태 공생 실천",
+  "lesson_hook": "학교 텃밭에서 곤충과 식물을 관찰하며 함께 사는 방법을 이야기해보는 활동",
+  "semantic_score": 0.49,
+  "quality_score": 0.8,
   "generation_method": "ai"
  },
  {
@@ -37067,6 +37441,61 @@
   "lesson_hook": "우리 교실 환경을 개선하는 활동에서 시작해 안전하고 쾌적한 주거 공간 설계 방안을 탐구해보자",
   "semantic_score": 0.508,
   "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[2수03-01]",
+  "target_code": "[2슬04-02]",
+  "link_type": "application",
+  "rationale": "수학 시간에 찾은 직육면체·원기둥·구 모양을 슬기로운 생활의 상상 표현 활동 재료로 활용하여, 입체 모양 블록으로 상상의 건물이나 동물을 만들어보는 융합 수업이 가능하다.",
+  "integration_theme": "입체도형으로 상상의 세계 만들기",
+  "lesson_hook": "교실 속 물건에서 찾은 직육면체·원기둥·구 모양 블록을 이용해 자신이 상상한 것을 만들어본다.",
+  "semantic_score": 0.456,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[2수03-01]",
+  "target_code": "[2즐04-01]",
+  "link_type": "application",
+  "rationale": "수학에서 배운 직육면체·원기둥·구 모양 찾기를 즐거운 생활의 놀잇감 만들기 활동에 바로 적용할 수 있다. 주변 물건에서 입체도형을 찾아 쌓거나 조립해 놀잇감을 만드는 실습형 융합 수업이 성립한다.",
+  "integration_theme": "입체도형으로 만드는 놀잇감",
+  "lesson_hook": "우유갑, 공, 통조림 캔 등에서 직육면체·원기둥·구 모양을 찾아 쌓아 놀잇감을 만든다.",
+  "semantic_score": 0.396,
+  "quality_score": 0.85,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[2수03-03]",
+  "target_code": "[2슬04-02]",
+  "link_type": "application",
+  "rationale": "수학에서 배운 삼각형·사각형·원 모양 찾기를 슬기로운 생활의 상상 구현 활동의 재료로 사용할 수 있다. 교실 주변에서 도형을 찾은 뒤 그 모양들을 활용해 상상한 물건이나 그림을 만드는 융합 수업이 가능하다.",
+  "integration_theme": "도형으로 상상 표현하기",
+  "lesson_hook": "교실에서 삼각형·사각형·원 모양의 물건을 찾은 뒤 그 모양을 오려 붙여 상상한 것을 만든다.",
+  "semantic_score": 0.468,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[2수03-03]",
+  "target_code": "[2즐02-04]",
+  "link_type": "application",
+  "rationale": "수학 시간에 찾은 삼각형, 사각형, 원 모양을 즐거운 생활의 상상 표현 활동 재료로 사용해 도형을 이용한 창작 그림이나 만들기를 하는 수업이 자연스럽게 성립한다.",
+  "integration_theme": "도형으로 상상의 세계 그리기",
+  "lesson_hook": "생활 주변에서 찾은 삼각형, 사각형, 원 모양을 오려 붙여 자신이 상상한 세상을 표현해본다.",
+  "semantic_score": 0.427,
+  "quality_score": 0.85,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[2수03-03]",
+  "target_code": "[2즐04-01]",
+  "link_type": "application",
+  "rationale": "수학 시간에 배운 삼각형·사각형·원 모양 찾기를 즐거운 생활 놀잇감 만들기 활동의 재료 탐색 단계에 바로 적용할 수 있다. 교실 주변 물건에서 도형을 찾아 오려 붙이거나 조립해 자신만의 놀잇감을 완성하는 한 차시 융합 수업이 자연스럽게 성립한다.",
+  "integration_theme": "도형으로 만드는 나만의 놀잇감",
+  "lesson_hook": "교실 속 물건에서 삼각형·사각형·원 모양을 찾아 오려 붙여 놀잇감을 만들어본다.",
+  "semantic_score": 0.411,
+  "quality_score": 0.85,
   "generation_method": "ai"
  },
  {
@@ -37198,6 +37627,17 @@
   "integration_theme": "공동체 예술 향유와 참여",
   "lesson_hook": "학급 전체가 참여하는 미술 전시회를 열어 문화예술을 함께 향유해보자",
   "semantic_score": 0.519,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[2즐02-02]",
+  "target_code": "[6음02-05]",
+  "link_type": "prerequisite",
+  "rationale": "1-2학년이 우리나라 문화예술을 즐기는 경험(전통놀이, 국악 감상 등)은 5-6학년에서 국악의 가치를 인식하고 음악 문화유산을 탐구하는 학습의 정서적 기반이 된다. 전통 음악을 듣고 몸으로 표현하는 활동에서 시작할 수 있다.",
+  "integration_theme": "우리나라 전통문화 향유",
+  "lesson_hook": "국악 장단에 맞춰 춤추고 놀이하며 우리 소리의 재미를 느끼는 활동",
+  "semantic_score": 0.486,
   "quality_score": 0.8,
   "generation_method": "ai"
  },
@@ -41709,6 +42149,28 @@
   "lesson_hook": "우리 마을의 기후 취약 요인을 조사하고 건강옹호 실천안을 발표한다.",
   "semantic_score": 0.599,
   "quality_score": 0.85,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[9사(일사)02-01]",
+  "target_code": "[9생일05-01]",
+  "link_type": "cross_subject",
+  "rationale": "사회 교과에서 문화의 개념과 특징을 배운 뒤, 일본어 시간에 다루는 구체적인 일본 문화 사례(명절, 음식, 인사 예절 등)를 자료로 활용해 개념을 적용·검증할 수 있다. 두 교과가 개념과 사례로 상호 보완된다.",
+  "integration_theme": "일본 문화 사례를 통한 문화 개념 탐구",
+  "lesson_hook": "일본 문화 콘텐츠를 조사하고 이를 바탕으로 문화의 의미와 특징을 도출하는 발표 수업을 진행한다.",
+  "semantic_score": 0.506,
+  "quality_score": 0.8,
+  "generation_method": "ai"
+ },
+ {
+  "source_code": "[9사(일사)02-01]",
+  "target_code": "[9생중05-02]",
+  "link_type": "cross_subject",
+  "rationale": "사회에서 문화의 개념과 특징을 학습한 후, 중국어 시간의 한중 문화 비교 조사 활동을 통해 구체적 사례로 개념을 적용·확장할 수 있다. 두 교과가 개념 학습과 사례 조사로 자연스럽게 연결된다.",
+  "integration_theme": "한중 문화 비교를 통한 문화 개념 이해",
+  "lesson_hook": "중국 문화 조사 자료를 활용해 한중 문화 비교표를 만들고 문화의 의미와 특징을 정리한다.",
+  "semantic_score": 0.498,
+  "quality_score": 0.8,
   "generation_method": "ai"
  },
  {
