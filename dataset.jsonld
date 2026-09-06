@@ -23,9 +23,18 @@
   ],
   "creator": {
     "@type": "Person",
-    "name": "Sukree Song",
+    "name": "송석리 (Sukree Song)",
     "alternateName": "greatsong",
-    "url": "https://github.com/greatsong"
+    "url": "https://github.com/greatsong",
+    "jobTitle": "교사 (Teacher)",
+    "affiliation": {
+      "@type": "EducationalOrganization",
+      "name": "당곡고등학교 (Danggok High School)",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KR"
+      }
+    }
   },
   "isBasedOn": {
     "@type": "CreativeWork",

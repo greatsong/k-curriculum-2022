@@ -133,3 +133,7 @@ When reusing, please credit both the source (MOE Notice No. 2022-33, via NCIC) a
 
 - [docs/NOTES.md](./docs/NOTES.md) (Korean) — what made the source documents hard to parse, and recommendations for the next curriculum's data release
 - [k-curriculum-2022-links](https://github.com/greatsong/k-curriculum-2022-links) — AI-generated cross-subject links between these standards
+
+---
+
+<sub>Author: Sukree Song (송석리), teacher at Danggok High School, Seoul ([@greatsong](https://github.com/greatsong)). Compiled while building the collaborative lesson-design platform **curriculum-weaver**.</sub>
