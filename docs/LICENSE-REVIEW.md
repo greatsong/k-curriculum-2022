@@ -28,12 +28,31 @@
 
 | 교육부의 입장 | 이 저장소 |
 |---|---|
-| 제7조 보호받지 못하는 저작물 (유력) | 문제 없음. 현 문안 유지. CC0 전환 검토 가능 |
+| 제7조 보호받지 못하는 저작물 (유력) | 문제 없음. 현 문안(CC BY 4.0) 유지 |
 | 공공누리 제1유형 | CC BY 4.0과 호환. 출처 표기 형식을 교육부 형식으로 맞춤 |
 | 공공누리 제2유형 | 상업적 이용 허용 문구를 걷어내고 CC BY-NC 4.0 또는 공공누리 제2유형 병기로 변경 |
 | 공공누리 미부착 공공저작물로서 협의 필요 | 협의 절차를 밟고 결과에 따라 조정 |
+
+## 라이선스 선택의 근거 — 왜 CC BY 4.0인가 (2026-09-06 확정)
+
+정부 교육과정을 다루는 공개 데이터는 "출처 표시만 하면 자유"가 국제적 기본값이고, 이 저장소는 그 흐름을 따른다.
+
+| 사례 | 성격 | 라이선스 |
+|---|---|---|
+| [学習指導要領LOD](https://jp-cos.github.io/) (일본, 教育データプラス研究会) | 문부과학성 학습지도요령을 민간 연구회가 링크드 데이터로 구조화 — 이 저장소와 가장 가까운 선례 | CC BY 4.0 |
+| [Australian Curriculum](https://www.australiancurriculum.edu.au/copyright-and-terms-of-use) (ACARA) | 정부 기관이 교육과정 원문을 직접 공개 | CC BY 4.0 |
+| 영국 국가 교육과정 (GOV.UK) | Crown copyright | [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) — 출처 표시, 상업 이용 가능 |
+| [유럽연합 집행위원회 데이터](https://digital-strategy.ec.europa.eu/en/news/rules-reuse-commission-information) | 정부 문서·데이터 | 2019년 결정으로 CC BY 4.0을 기본값으로 |
+| 한국 공공데이터포털 | 정부 공공저작물 | [공공누리 제1유형](https://www.kogl.or.kr/info/license.do) — CC BY와 같은 조건 |
+| [Wikidata](https://www.wikidata.org/wiki/Wikidata:Licensing), [dblp](https://blog.dblp.org/2019/11/24/licence-change-to-cc-0/) | 수많은 출처를 합쳐 쓰는 사실 데이터 허브 | CC0 — 출처 표시가 쌓이는 문제를 피하기 위해 |
+| [Common Core State Standards](https://www.thecorestandards.org/public-license/) (미국) | 민간 단체의 교육과정 표준 | 자체 라이선스: 변경 금지, 목적 제한 — 파생 데이터가 자라기 어려운 반례 |
+
+CC0는 데이터 허브에 통합되는 것을 목표로 할 때의 선택이다. 이 저장소는 교사·연구자·개발자가 직접 받아 쓰는 데이터셋이므로 CC BY 4.0을 유지한다. CC BY 4.0의 저작자 표시 의무는 이 저장소가 더한 층에만 미치며, 원문 층에는 어떤 조건도 붙지 않는다(LICENSE-DATA 1층). 필요하면 나중에 CC0로 푸는 것은 가능하지만 반대 방향은 불가능하다.
+
+CC BY 4.0을 고른 이유 중 데이터셋에 특히 중요한 점: 4.0은 유럽식 데이터베이스권(sui generis database right)을 명시적으로 포함하고([CC 위키](https://wiki.creativecommons.org/wiki/4.0/Sui_generis_database_rights)), 국가별 이식판 없이 하나의 국제판이며, 저작자 표시 방식을 "매체에 비추어 합리적인 방식"으로 열어 두어 데이터 재이용에 마찰이 적다.
 
 ## 이력
 
 - 2026-07-14: 최초 공개 시 CC BY 4.0 채택(공개 데이터의 관례에 따른 선택, 원문 지위는 별도 검토하지 않음).
 - 2026-09-06: 위 조사. LICENSE-DATA를 세 층(원문 / 구조화 / 출처 표기 요청)으로 다시 씀. 교육부 문의 발송.
+- 2026-09-06: 선례 비교 후 **CC BY 4.0 최종 확정**(관리자 결정). CC0는 채택하지 않음.
